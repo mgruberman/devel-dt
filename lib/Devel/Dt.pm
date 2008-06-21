@@ -52,15 +52,11 @@ BEGIN {
 
 =head1 NAME
 
-Devel::Dt - Emulates command line flag -Dt but better
-
-=head1 VERSION
-
-Version 0.01
+Devel::Dt - Kind of emulates command line flag -Dt on normal perl
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 
