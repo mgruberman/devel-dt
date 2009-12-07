@@ -1,5 +1,6 @@
 #!perl
 use strict;
+use 5.006;
 use warnings;
 use ExtUtils::MakeMaker;
 
