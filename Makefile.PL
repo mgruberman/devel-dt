@@ -11,13 +11,9 @@ WriteMakefile(
     ABSTRACT_FROM       => 'lib/Devel/Dt.pm',
     PL_FILES            => {},
     PREREQ_PM => {
-	map { $_ => 0 }
-	qw(
-            Test::More
-            B::Utils
-            Runops::Trace
-        )
-#            Data::Dump::Streamer
+        'Test::More' => 0,
+        'B::Utils' => 0,
+        'Runops::Trace' => 0,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'Devel-Dt-*' },
