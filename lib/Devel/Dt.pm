@@ -56,7 +56,7 @@ Devel::Dt - Kind of emulates command line flag -Dt on normal perl
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 
 
