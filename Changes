@@ -9,3 +9,4 @@ Revision history for Devel-Dt
 0.03
         - Require perl-5.6+
         - Cleaning
+        - Add .gitignore
