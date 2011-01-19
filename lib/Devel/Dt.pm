@@ -1,4 +1,5 @@
 package Devel::Dt;
+# ABSTRACT: Kind of emulates command line flag -Dt on normal perl
 
 use warnings;
 use strict;
@@ -49,19 +50,6 @@ BEGIN {
 
     Runops::Trace::enable_global_tracing( \&dt );
 }
-
-=head1 NAME
-
-Devel::Dt - Kind of emulates command line flag -Dt on normal perl
-
-=cut
-
-our $VERSION = '0.03';
-
-
-
-
-
 
 =head1 SYNOPSIS
 
